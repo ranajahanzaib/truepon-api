@@ -14,9 +14,9 @@ func main() {
 }
 
 func home(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "A homepage.")
+	fmt.Fprintln(w, "Truepon Homepage.")
 }
 
 func about(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "The about page.")
+	fmt.Fprintln(w, "Find about Truepon here.")
 }
